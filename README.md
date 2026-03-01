@@ -1,4 +1,5 @@
 #  AthleteZone E-commerce Sales & Customer Insights
+<img width="1290" height="727" alt="image" src="https://github.com/user-attachments/assets/36a85d67-4832-4d2a-8005-b0437f5ece5c" />
 
 ##  Overview  
 This project showcases a **MySQL-based E-commerce database** integrated with **Power BI dashboards** to provide actionable insights into sales, products, and customer trends.  
@@ -14,8 +15,6 @@ The solution includes:
 
 ##  Dashboards  
 
-### E-commerce Sales & Customer Insights Dashboard  
-<img width="1290" height="727" alt="image" src="https://github.com/user-attachments/assets/36a85d67-4832-4d2a-8005-b0437f5ece5c" />
 
 
 ### Data Model  
