@@ -1,18 +1,18 @@
-# 🏀 AthleteZone E-commerce Sales & Customer Insights
+#  AthleteZone E-commerce Sales & Customer Insights
 
-## 📌 Overview  
+##  Overview  
 This project showcases a **MySQL-based E-commerce database** integrated with **Power BI dashboards** to provide actionable insights into sales, products, and customer trends.  
 It tracks **customer purchases, product inventory, and revenue performance** while highlighting key metrics for business decision-making.  
 
 The solution includes:  
-- 🗄️ **MySQL Database** (Customers, Products, Orders, Date)  
-- 🔑 **Data Cleaning & Updates** (Customer corrections, product renaming, price updates)  
-- 📊 **Power BI Dashboards** for sales insights and inventory monitoring  
-- 📈 **Key Metrics**: Revenue, Orders, Top Products, and Join Trends  
+-  **MySQL Database** (Customers, Products, Orders, Date)  
+-  **Data Cleaning & Updates** (Customer corrections, product renaming, price updates)  
+-  **Power BI Dashboards** for sales insights and inventory monitoring  
+-  **Key Metrics**: Revenue, Orders, Top Products, and Join Trends  
 
 ---
 
-## 📊 Dashboards  
+##  Dashboards  
 
 ### E-commerce Sales & Customer Insights Dashboard  
 <img width="1290" height="727" alt="image" src="https://github.com/user-attachments/assets/36a85d67-4832-4d2a-8005-b0437f5ece5c" />
@@ -22,7 +22,7 @@ The solution includes:
 <img width="1108" height="627" alt="image" src="https://github.com/user-attachments/assets/aef5a0c3-461a-4c58-96b1-550daee0eacd" />
 
 
-## ✅ Database Schema  
+##  Database Schema  
 
 **Customers Table**
 - `CustomerID` (PK)  
@@ -59,9 +59,9 @@ The solution includes:
 
 ---
 
-## 🛠️ SQL Scripts  
+##  SQL Scripts  
 
-### 🔹 Create Database and Tables
+###  Create Database and Tables
 ```sql
 CREATE DATABASE AthleteZone;
 USE AthleteZone;
@@ -118,7 +118,7 @@ UPDATE Products SET Name = 'Running Shoes' WHERE ProductID = 2;
 UPDATE Products SET Name = 'Goalkeeper Gloves' WHERE ProductID = 3;
 
 UPDATE Products SET Price = 1000 WHERE ProductID = 2;
-🔍 Findings
+ Findings
 Total Revenue: £203K from 3 orders
 
 Top Selling Product: Goalkeeper Gloves
@@ -129,7 +129,7 @@ Inventory Check: Running Shoes had the highest stock level
 
 Data Cleaning: Fixed customer email and renamed products for clarity
 
-📌 Conclusion
+ Conclusion
 The AthleteZone E-commerce project demonstrates how SQL and Power BI can work together to deliver:
 
 Accurate customer insights
@@ -146,13 +146,10 @@ Include return/refund data
 
 Build predictive sales models
 
-⚙️ Tools Used
+ Tools Used
 MySQL – Database creation & queries
-
 Power BI – Interactive dashboards
-
 DAX & Power Query – Data cleaning and analysis
-
 ER Modeling – Database schema design
 
 👩‍💻 Created by Balikisu Ajoke Oniyide
